@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoranumGra-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title>Juego matemática</title>
+<link type="text/css" href="Crucigrama_resources/css/ardoranumGra.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="../ardoraFiles/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="../ardoraFiles/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="../ardoraFiles/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="Crucigrama_resources/js/ardoranumGraCFG.js"></script>
+<script language="javascript" type="text/javascript" src="Crucigrama_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="Crucigrama_resources/js/ardoranumGra.js"></script>
+<script language="javascript" type="text/javascript" src="Crucigrama_resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="Crucigrama_resources/media/y2mate.com_-_Descargar_sonido_de_moneda_Mario_bros__Download_Mario_Bros_Coin_sound.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="Crucigrama_resources/media/efecto_de_sonido_de_fail_Bob_esponja.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:26px;color:#000000">En esta actividad debes de ver que números son los que faltan,</SPAN><br><SPAN style="font-size:26px;color:#000000"> para poder completar el resultado siguiendo las operaciones que te dan.</SPAN></div>
+  <div id="ardoraAct">
+  <table  id="tableNG">
+<tr>
+<td class="ngCell" id="c0_0"><input id="ic0_0" name="ic0_0" type="text" class="cell" /></td>
+<td id="s1_0">+</td>
+<td id="s2_0">46</td>
+<td id="s3_0">-</td>
+<td class="ngCell" id="c4_0"><input id="ic4_0" name="ic4_0" type="text" class="cell" /></td>
+<td id="s5_0">50</td>
+</tr>
+<tr>
+<td id="s0_1">+</td>
+<td class="blackCell" id="b1_1"></td>
+<td id="s2_1">+</td>
+<td class="blackCell" id="b3_1"></td>
+<td id="s4_1">+</td>
+<td class="blackCell" id="b5_1"></td>
+</tr>
+<tr>
+<td class="ngCell" id="c0_2"><input id="ic0_2" name="ic0_2" type="text" class="cell" /></td>
+<td id="s1_2">+</td>
+<td id="s2_2">165</td>
+<td id="s3_2">+</td>
+<td id="s4_2">3</td>
+<td id="s5_2">302</td>
+</tr>
+<tr>
+<td id="s0_3">+</td>
+<td class="blackCell" id="b1_3"></td>
+<td id="s2_3">+</td>
+<td class="blackCell" id="b3_3"></td>
+<td id="s4_3">+</td>
+<td class="blackCell" id="b5_3"></td>
+</tr>
+<tr>
+<td id="s0_4">96</td>
+<td id="s1_4">-</td>
+<td id="s2_4">45</td>
+<td id="s3_4">+</td>
+<td class="ngCell" id="c4_4"><input id="ic4_4" name="ic4_4" type="text" class="cell" /></td>
+<td id="s5_4">51</td>
+</tr>
+<tr>
+<td id="s0_5">239</td>
+<td class="blackCell" id="b1_5"></td>
+<td id="s2_5">256</td>
+<td class="blackCell" id="b3_5"></td>
+<td id="s4_5">8</td>
+<td class="blackCell" id="b5_5"></td>
+</tr>
+   </table>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="98"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+<div id="ardoraAutor"><p>Salvador Galdámez</p></div>
+</body></html>
